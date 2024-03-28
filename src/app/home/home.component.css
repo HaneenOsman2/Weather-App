@@ -1,0 +1,131 @@
+.container {
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px;
+}
+
+.card {
+    background-color: #4d99e7; 
+    border: none;
+    color:#fff ;
+}
+
+.content{
+    display: flex;
+    align-items: baseline;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:50px ;
+}
+
+/* .upper-data {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.lower-data{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.upper-data img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.weather-data {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 228, 196, 0.193);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loaction {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+.temp {
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+    font-weight: 900;
+}
+
+.more-info {
+    color: #fff;
+}
+
+.more-info-data {
+    flex: 1;
+    background-color: rgba(255, 228, 196, 0.193);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.info-block {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-block-label {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-block-label img {
+    width: 1.5em;
+}
+
+.info-block-label span {
+color: #fff;
+font-size: 0.8em;
+
+}
+
+.info-block-value{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+} */

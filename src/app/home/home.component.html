@@ -1,0 +1,30 @@
+<form [formGroup]="cityForm" (submit)="onSubmit()">
+    <div class="form-group">
+
+        <input  type="text" class="form-control w-50" placeholder="Country Name..." id="city" formControlName="city">
+        <button type="submit" class="btn btn-outline-light"  [disabled]="!cityForm.valid"
+            (click)="onSubmit()">Click</button>
+    </div>
+</form>
+
+<div *ngIf="initialForm" class="container ">
+
+    <div class="card  mt-5">
+        <div class="card-body">
+            <h2 class="text-center">{{cityName}}</h2>
+            <div class="content">
+                <p><img src="{{iconUrl}}" alt="weather Image "></p>
+                <h4>{{summary}}</h4>
+            </div>
+            <div>
+
+                <p class="card-text"></p>
+                <!-- <p class="card-text">Summary : {{summary}}</p> -->
+                <p class="card-text">Temperature : {{temperature}} ° C</p>
+                <p class="card-text">Feels Like : {{feelsLikeTemp}}° C</p>
+                <p class="card-text">Humidity: {{humidity}} %</p>
+                <p class="card-text">Wind speed : {{windSpeed}}</p>
+            </div>
+        </div>
+    </div>
+</div>
